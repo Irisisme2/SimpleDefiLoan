@@ -61,11 +61,8 @@ Post-hackathon, the project can be expanded to include additional features such 
 ## Contributing
 We welcome contributions to improve the platform! Please fork the repository, make your changes, and submit a pull request.
 
-## License
-This project is licensed under the MIT License.
-
 ## Contact
-For any questions or inquiries, please contact us at [your-email@example.com].
+For any questions or inquiries, please contact us at wiktoriajarema301@gmail.com.
 
 ---
 
