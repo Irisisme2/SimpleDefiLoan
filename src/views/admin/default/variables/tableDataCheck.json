@@ -1,0 +1,31 @@
+[{
+  "borrower":["John Doe",false],
+  "amount": 2458, 
+  "currency": "USDT",
+  "repaymentDate": "2024-06-18"
+},
+{
+  "borrower":["Alice Johnson",true],
+  "amount": 1485, 
+  "currency": "ETH",
+  "repaymentDate": "2024-07-01"
+},
+{
+  "borrower":["Jane Smith",true],
+  "amount": 1024, 
+  "currency": "rBTC",
+  "repaymentDate": "2024-06-20" 
+},
+{
+  "borrower":["Alexander Hamilton",true],
+  "amount": 858, 
+  "currency": "rBTC",
+  "repaymentDate": "2024-06-25" 
+},
+{
+  "borrower":["Terry Prachet",false],
+  "amount": 258, 
+  "currency": "ETH",
+  "repaymentDate": "2024-07-22" 
+}
+]

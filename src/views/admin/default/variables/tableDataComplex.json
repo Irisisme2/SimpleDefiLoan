@@ -1,0 +1,26 @@
+[
+  {
+    "loan": "Loan 1",
+    "status": "Approved",
+    "dueDate": "18 Apr 2022",
+    "paymentprogress": 75.5
+  },
+  {
+    "loan": "Loan 2",
+    "status": "Pending",
+    "dueDate": "18 Apr 2022",
+    "paymentprogress": 25.5
+  },
+  {
+    "loan": "Loan 3",
+    "status": "Error",
+    "dueDate": "20 May 2021",
+    "paymentprogress": 90
+  },
+  {
+    "loan": "Loan 4",
+    "status": "Approved",
+    "dueDate": "12 Jul 2021",
+    "paymentprogress": 50.5
+  }
+]
