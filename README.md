@@ -1,115 +1,67 @@
-# [Horizon UI ⚡️](https://horizon-ui.com/horizon-ui-chakra) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://horizon-ui.com/&text=Check%20Horizon%20UI,%20the%20trendiest%20open-source%20admin%20template%20for%20Chakra%20UI%20&%20React!)
+# Simple DeFi Loan Platform
 
-![version](https://img.shields.io/badge/version-1.3.0-brightgreen.svg)
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
-[![GitHub issues open](https://img.shields.io/github/issues/horizon-ui/horizon-ui-chakra.svg?maxAge=2592000)](https://github.com/horizon-ui/horizon-ui-chakra/issues?q=is%3Aopen+is%3Aissue)
+## Introduction
+The **Simple DeFi Loan Platform** is a decentralized application (dApp) designed to revolutionize the way loans are handled within the Bitcoin ecosystem. Built on the Rootstock (RSK) network, this platform leverages the security of Bitcoin while utilizing Solidity-based smart contracts to manage loan agreements. This project aims to provide a seamless, transparent, and secure method for users to request and offer loans using rBTC (Rootstock Bitcoin).
 
-<p>&nbsp;</p>
+## Problem Statement
+Traditional loan systems are often bogged down by lengthy approval processes, high fees, and a lack of transparency. Decentralized finance (DeFi) has the potential to address these issues, but many existing solutions are built on networks that do not offer the robust security of Bitcoin. The Simple DeFi Loan Platform seeks to bridge this gap by bringing DeFi functionality to the Bitcoin network via Rootstock, enabling users to benefit from both the security of Bitcoin and the flexibility of smart contracts.
 
-[<img alt="Horizon UI" src="https://i.ibb.co/fdyTwz1/introduction-image-2.png" /> ](https://github.com/horizon-ui/horizon-ui-chakra)
+## Project Goals
+1. **Facilitate Easy Loan Requests and Offers**: Provide a user-friendly interface for borrowers to request loans and for lenders to offer loans.
+2. **Ensure Transparency and Security**: Use smart contracts to manage loan agreements, ensuring that all terms are transparent and immutable.
+3. **Leverage Bitcoin's Security**: Build on the Rootstock network to ensure that all transactions benefit from Bitcoin's robust security features.
 
-<p>&nbsp;</p>
+## Key Features
+1. **📋 Loan Request Form**: Borrowers can easily fill out a form specifying the loan amount, interest rate, and repayment period.
+2. **📜 Loan Offers Listing**: Lenders can browse a list of loan requests and choose to fund those that meet their criteria.
+3. **📊 Loan Management Dashboard**: Both borrowers and lenders have access to a dashboard where they can view active loans, repayment schedules, and transaction history.
+4. **🔐 Smart Contract Integration**: The platform interacts with Rootstock smart contracts to handle the creation and repayment of loans, ensuring that all processes are automated and secure.
 
+## Technical Implementation
+The project is built using React.js for the front-end, with Chakra UI for the user interface components, ensuring a modern and responsive design. The back-end is integrated with the Rootstock network, leveraging its EVM compatibility to deploy and interact with Solidity-based smart contracts.
 
-Get started and build your dream web app with Horizon UI, the most trendiest &
-innovative Open Source Admin Template for Chakra UI & React!
+## Deliverables
+1. **Deployed Smart Contract**: A smart contract deployed on the Rootstock testnet to manage loan agreements.
+2. **Successful On-Chain Transactions**: At least two successful on-chain transactions demonstrating loan creation and repayment.
+3. **GitHub Repository**: A public repository containing the project's source code and a descriptive README file.
+4. **Pitch Video**: A video pitch explaining the project's concept, features, and demonstrating its functionality.
 
----
+## Installation and Setup
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/simple-defi-loan-platform.git
+    cd simple-defi-loan-platform
+    ```
 
-### Introduction
+2. **Install dependencies**:
+    ```bash
+    yarn install
+    ```
 
-Designed for those who like modern UI elements and beautiful websites. Made of
-hundred of elements, designed blocks and fully coded pages, Horizon UI is ready
-to help you create stunning websites and webapps.
+3. **Start the development server**:
+    ```bash
+    yarn start
+    ```
 
-Save hundreds of hours trying to create and develop a dashboard from scratch.
-The fastest, most responsive & trendiest dashboard is here. Seriously.
+4. **Deploy the smart contract**:
+    Follow the instructions in the `smart-contracts` folder to deploy the smart contract to the Rootstock testnet.
 
-With Horizon UI you will find many examples for pages like NFTs Pages,
-Authentication Pages, Profile and so on. Just choose between a Basic Design or a
-cover and you are good to go!
+## Usage
+1. **Request a Loan**: Navigate to the loan request form and fill out the necessary details.
+2. **View Loan Offers**: Browse the list of loan requests and choose one to fund.
+3. **Manage Loans**: Use the dashboard to track active loans, view repayment schedules, and monitor transaction history.
 
-### 🎉 [NEW] Horizon UI Components
-All the main components from both versions, this will help you to see and interact with all & the latest added components of Horizon (also, new components are on the way, stay tuned)! ⚡️
-<a href="https://horizon-ui.com/components/?ref=readme-horizon" target="_blank">See all components</a>
+## Future Enhancements
+Post-hackathon, the project can be expanded to include additional features such as:
+- Enhanced loan analytics and reporting tools.
+- Support for multi-collateral loans.
+- Integration with other DeFi protocols and services on Rootstock.
+- Improved security features and audits.
 
+## Contributing
+We welcome contributions to improve the platform! Please fork the repository, make your changes, and submit a pull request.
 
-### Documentation
-
-Each element is well presented in a very complex documentation. You can read
-more about the <a href="https://horizon-ui.com/documentation/docs/introduction?ref=readme-horizon" target="_blank">documentation
-here.</a>
-
-### Quick Start
-
-Install Horizon UI by running either of the following:
-
-- Install NodeJS LTS from
-  [NodeJs Official Page](https://nodejs.org/en/?ref=horizon-documentation)
-  (NOTE: Product only works with LTS version)
-
-Clone the repository with the following command:
-
-```bash
-git clone https://github.com/horizon-ui/horizon-ui-chakra.git
-```
-
-Run in terminal this command:
-
-```bash
-npm install
-```
-
-Then run this command to start your local server
-
-```bash
-npm start
-```
-
-### Example Pages
-
-If you want to get inspiration or just show something directly to your clients,
-you can jump start your development with our pre-built example pages. You will
-be able to quickly set up the basic structure for your web project. View
-<a href="https://horizon-ui.com/horizon-ui-chakra/?ref=readme-horizon" target="_blank">example
-pages here.</a>
-
-### Versions
-
-| Free Version                                                                                                       | PRO Version                                                                                                               |
-| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| [![Horizon UI](https://i.ibb.co/fdyTwz1/introduction-image-2.png)](https://www.horizon-ui.com/?ref=readme-horizon) | [![Horizon UI PRO](https://i.ibb.co/R6jFKRM/introduction-image-1.png)](https://www.horizon-ui.com/pro?ref=readme-horizon) |
-
-### Figma Version
-
-Horizon UI is available in Figma format as well! Check it out on Figma
-Community! 🎨
-[See the Horizon UI Figma design files](https://bit.ly/horizon-figma)
-
-### Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the Horizon UI. Here are
-some advices for our users that want to report an issue:
-
-1. Make sure that you are using the latest version of the Horizon UI Dashbaord.
-   Check the CHANGELOG from your dashboard on our
-   [CHANGE LOG File](https://github.com/horizon-ui/horizon-ui-chakra/blob/main/CHANGELOG.md?ref=readme-horizon).
-2. Providing us reproducible steps for the issue will shorten the time it takes
-   for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you
-   encountered the issue might help.
+## Contact
+For any questions or inquiries, please contact us at wiktoriajarema301@gmail.com.
 
 ---
-
-### Community
-
-Connect with the community! Feel free to ask questions, report issues, and meet
-new people that already use Horizon UI!
-
-💬 [Join the #HorizonUI Discord Community!](https://discord.gg/f6tEKFBd4m)
-
-### Copyright and license
-
-⭐️ [Copyright 2023 Simmmple ](https://www.simmmple.com/?ref=readme-horizon)
-
-📄 [Horizon UI License](https://www.simmmple.com/licenses?ref=readme-horizon)
