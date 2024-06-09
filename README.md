@@ -29,7 +29,7 @@ The project is built using React.js for the front-end, with Chakra UI for the us
 ## Installation and Setup
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/simple-defi-loan-platform.git
+    git clone https://github.com/Irisisme2/SimpleDefiLoan/tree/master
     cd simple-defi-loan-platform
     ```
 
